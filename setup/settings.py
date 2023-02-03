@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-83!wy7^2ozcrc!v+uv5utm^&x3@)2lbn*+i3im7c4ym+v_c-ge
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -120,6 +120,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATIC_URL = 'static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'app_viagem/static'),]
+
 
 TEMPUS_DOMINUS_LOCALIZE = True
 
