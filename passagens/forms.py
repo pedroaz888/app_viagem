@@ -41,4 +41,4 @@ class PassagemForms(forms.ModelForm):
 class PessoasForms(forms.ModelForm):
     class Meta:
         model = Pessoa
-        fields = ['email']
+        fields = ['email','nome']
