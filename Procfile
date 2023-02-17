@@ -1,2 +1,2 @@
 
-web: guinicorn passagens.wsgi --log-file -
+web: python manage.py migrate && gunicorn setup.wsgi
