@@ -6,6 +6,6 @@ para permissões de formulário/viagem, validando campos como: </br>
 - Origem e Destino -  não podem ser o mesmo não aceita números  </br>
 - Data ida e Data volta - não podem ser conflitantes </br>
 
-localhost:  >   /index
+https://appviagem-production.up.railway.app/index
 
 
